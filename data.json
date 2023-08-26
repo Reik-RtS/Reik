@@ -1,46 +1,92 @@
 [
   {
-    "tipo": "pregunta",
-    "texto": "¿Tiene pelo?"
+    "id": "preg_es_mamifero",
+    "tipo": "preg",
+    "texto1":"¿Es un mamifero?"
+    "texto2":"¿Es un oviparo?"    
+    "id_siguiente1": "res_si_mamifero",
+    "id_siguiente2": "res_no_mamifero",
+    "id_siguiente3": "res_nose_mamifero"
+  },
+ {
+    "id": "res_si_mamifero",
+    "tipo": "res",
+    "texto1":"¿El tiene pelo?",
+    "texto2": "¿El mamifero es acuatico?", 
+    "id_siguiente1": "res_si_tienepelo",
+    "id_siguiente2": "res_no_tienepelo",
+    "id_siguiente3": "res_nose_tienepelo"
   },
   {
-    "tipo": "respuesta",
-    "texto": "si",
-    "siguiente": "tiene_pelo"
+    "id": "res_no_mamifero",
+    "tipo": "res",
+    "texto1":"Lo sentimos es un, ¿Es un oviparo?",
+    "texto2": "¿tiene pelaje?", 
+    "id_siguiente1": "res_si_oviparo",
+    "id_siguiente2":  "res_no_oviparo",
+    "id_siguiente3": "res_nose_oviparo"
   },
   {
-    "tipo": "respuesta",
-    "texto": "no",
-    "siguiente": "no_tiene_pelo"
+    "id": "res_nose_mamifero",
+    "tipo": "res",
+    "texto1":"Puede que su mascota sea, ¿Acuatico?"  
+    "texto2": "Puede que su mascota, ¿Tenga escamas?"  
+    "id_siguiente1": "res_si_pueda"
+    "id_siguiente2": "res_no_pueda"
+    "id_siguiente3": "res_nose_pueda"
   },
   {
-    "id": "tiene_pelo",
-    "tipo": "pregunta",
-    "texto": "¿Es un perro?"
+    "id": "res_si_tienepelo",
+    "tipo": "res",
+    "texto1":"¿Es un perro?",
+    "texto2": "", 
+    "id_siguiente1": "res_si_esperro",
+    "id_siguiente2": "res_no_esperro",
+    "id_siguiente3": "res_nose_esperro"
   },
   {
-    "id": "no_tiene_pelo",
-    "tipo": "pregunta",
-    "texto": "¿Es un reptil?"
+    "id": "res_no_tienepelo",
+    "tipo": "res",
+    "texto1":"¿El cuerpo de su mascota esta cuvierto por piel?",
+    "texto2": "¿?", 
+    "id_siguiente1": "res_si_tienepelo",
+    "id_siguiente2": "res_no_tienepelo",
+    "id_siguiente3": "res_nose_tienepelo"
   },
   {
-    "tipo": "respuesta",
-    "texto": "si",
-    "siguiente": "es_perro"
+    "id": "res_nose_tienepelo",
+    "tipo": "res",
+    "texto1":"puede que su mascota sea ¿un ornitorringo?",
+    "texto2": "¿?", 
+    "id_siguiente1": "res_si_ornitorrigo",
+    "id_siguiente2": "res_no_ornitorrigo",
+    "id_siguiente3": "res_nose_ornitorrigo"
   },
   {
-    "tipo": "respuesta",
-    "texto": "no",
-    "siguiente": "es_reptil"
+    "id": "res_si_esperro",
+    "tipo": "res",
+    "texto1":"¿su mascota esta enfermo?",
+    "texto2": "", 
+    "id_siguiente1": "res_si_enfermo",
+    "id_siguiente2": "res_no_enfermo",
+    "id_siguiente3": "res_nose_enfermao"
   },
   {
-    "id": "es_perro",
-    "tipo": "respuesta",
-    "texto": "El animal es un perro."
+    "id": "res_no_esperro",
+    "tipo": "res",
+    "texto1":"¿su mascota es un gato?",
+    "texto2": "", 
+    "id_siguiente1": "res_si_enfermo",
+    "id_siguiente2": "res_no_enfermo",
+    "id_siguiente3": "res_nose_enfermo"
   },
   {
-    "id": "es_reptil",
-    "tipo": "respuesta",
-    "texto": "El animal es un reptil."
+    "id": "res_nose_esperro",
+    "tipo": "res",
+    "texto1":"Entonces le aremos un chequeo, esta de acuerdo ",
+    "texto2": "", 
+    "id_siguiente1": "res_si_chequeo",
+    "id_siguiente2": "res_no_chequeo",
+    "id_siguiente3": "res_nose_chequeo"
   }
 ]
