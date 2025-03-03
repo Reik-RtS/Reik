@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "pkg001",
+    "name": "Lima Cultural Experience",
+    "destinations": ["Lima", "Miraflores", "Barranco"],
+    "days": 3,
+    "lodging": "Hotel 3 estrellas en Lima",
+    "meals": {
+      "breakfast": "Incluido en el hotel",
+      "lunch": "Restaurante local",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 200.0,
+    "discount": 5,
+    "description": "Este paquete ofrece una experiencia cultural integral en Lima, recorriendo los vibrantes distritos de Miraflores y Barranco. Durante 3 días, los turistas disfrutarán de visitas guiadas por sitios históricos y modernos, complementado con degustaciones gastronómicas en restaurantes locales. El servicio de guía profesional brinda información detallada sobre la historia y la cultura limeña, mientras que el hospedaje en un cómodo hotel de 3 estrellas garantiza una estancia placentera."
+  },
+  {
+    "id": "pkg002",
+    "name": "Cusco Historical Tour",
+    "destinations": ["Cusco", "Sacsayhuamán", "Qorikancha"],
+    "days": 4,
+    "lodging": "Hotel 4 estrellas en Cusco",
+    "meals": {
+      "breakfast": "Incluido en el hotel",
+      "lunch": "Restaurante local",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 300.0,
+    "discount": 10,
+    "description": "Este recorrido histórico por Cusco permite a los viajeros explorar emblemáticos sitios incaicos como Sacsayhuamán y el Templo del Sol, Qorikancha. Durante 4 días, se ofrecerá una detallada explicación de la historia local por guías expertos, junto con alojamiento en un hotel de 4 estrellas y degustaciones en restaurantes tradicionales. La ruta está diseñada para sumergir a los visitantes en la cultura ancestral de la región."
+  },
+  {
+    "id": "pkg003",
+    "name": "Machu Picchu Adventure",
+    "destinations": ["Cusco", "Machu Picchu"],
+    "days": 5,
+    "lodging": "Hotel en Cusco y Aguas Calientes",
+    "meals": {
+      "breakfast": "Incluido en el hotel",
+      "lunch": "Restaurante en sitio",
+      "dinner": "Incluido en Cusco"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 500.0,
+    "discount": 15,
+    "description": "Este paquete de aventura a Machu Picchu combina la majestuosidad de la ciudad de Cusco con la impresionante experiencia de visitar la ciudadela inca. Durante 5 días, se realiza un recorrido planificado que incluye viajes en tren, visitas guiadas y hospedaje en hoteles estratégicamente ubicados tanto en Cusco como en Aguas Calientes. El itinerario permite disfrutar de la historia, la cultura y la naturaleza, con paradas programadas para degustar la gastronomía regional."
+  },
+  {
+    "id": "pkg004",
+    "name": "Sacred Valley Discovery",
+    "destinations": ["Sacred Valley", "Pisac", "Ollantaytambo"],
+    "days": 3,
+    "lodging": "Hotel boutique en el Valle",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Restaurante local",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 250.0,
+    "discount": 0,
+    "description": "Este itinerario por el Valle Sagrado de los Incas ofrece una experiencia única en la que se recorren los pintorescos pueblos de Pisac y Ollantaytambo. Durante 3 días, el viajero disfrutará de un recorrido con guía profesional, visitas a mercados artesanales y ruinas ancestrales, con alojamiento en un encantador hotel boutique y degustaciones de la cocina local."
+  },
+  {
+    "id": "pkg005",
+    "name": "Arequipa & Colca Canyon",
+    "destinations": ["Arequipa", "Colca Canyon"],
+    "days": 6,
+    "lodging": "Hotel en Arequipa",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 450.0,
+    "discount": 10,
+    "description": "Este paquete combina la belleza colonial de Arequipa con la majestuosa naturaleza del Cañón del Colca. Durante 6 días, se ofrece un recorrido completo que incluye visitas a miradores, excursiones para observar el vuelo del cóndor y una inmersión en la cultura local. El alojamiento, las tres comidas diarias y el acompañamiento de un guía experto aseguran una experiencia inolvidable."
+  },
+  {
+    "id": "pkg006",
+    "name": "Amazon Rainforest Expedition",
+    "destinations": ["Puerto Maldonado", "Reserva Tambopata"],
+    "days": 4,
+    "lodging": "Eco-lodge en la selva",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 400.0,
+    "discount": 5,
+    "description": "Esta expedición en la Amazonía peruana invita a los viajeros a descubrir la biodiversidad de la Reserva Tambopata. Durante 4 días, se explorarán senderos selváticos, se realizarán paseos en bote y se participará en actividades de observación de fauna y flora. El eco-lodge garantiza una experiencia inmersiva en la naturaleza, con guías especializados que interpretan la riqueza ecológica y cultural de la región."
+  },
+  {
+    "id": "pkg007",
+    "name": "Nazca Lines Mystery",
+    "destinations": ["Nazca"],
+    "days": 2,
+    "lodging": "Hotel en Nazca",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "No incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 150.0,
+    "discount": 0,
+    "description": "En este paquete, los viajeros se adentrarán en el enigmático mundo de las Líneas de Nazca. Durante 2 días se visitarán los famosos geoglifos mediante sobrevuelo, complementado con visitas terrestres a miradores locales. Aunque el paquete es más económico y sin guía profesional, ofrece la posibilidad de descubrir uno de los misterios arqueológicos más importantes de Perú."
+  },
+  {
+    "id": "pkg008",
+    "name": "Paracas and Ballestas Islands",
+    "destinations": ["Paracas", "Islas Ballestas"],
+    "days": 3,
+    "lodging": "Hotel en Paracas",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 220.0,
+    "discount": 5,
+    "description": "Este paquete ofrece una escapada costera a Paracas y las Islas Ballestas, famosas por su biodiversidad marina. Durante 3 días, los viajeros disfrutarán de un tour guiado por las reservas naturales, observarán aves y lobos marinos, y conocerán la historia marítima de la región. El itinerario incluye alojamiento en un hotel confortable y degustaciones de la cocina costera local."
+  },
+  {
+    "id": "pkg009",
+    "name": "Ica and Huacachina Adventure",
+    "destinations": ["Ica", "Huacachina"],
+    "days": 3,
+    "lodging": "Hotel en Huacachina",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Opcional",
+      "dinner": "Opcional"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 180.0,
+    "discount": 0,
+    "description": "En este emocionante paquete, se combinan la historia de Ica y la aventura en el oasis de Huacachina. Durante 3 días, los viajeros podrán explorar dunas en recorridos en buggy, practicar sandboarding y visitar bodegas locales. Aunque el paquete no incluye guía profesional, se ofrece una ruta bien planificada para quienes buscan emociones y contacto con la naturaleza."
+  },
+  {
+    "id": "pkg010",
+    "name": "Puno and Lake Titicaca",
+    "destinations": ["Puno", "Islas Flotantes de los Uros"],
+    "days": 4,
+    "lodging": "Hotel en Puno",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 300.0,
+    "discount": 10,
+    "description": "Este paquete está diseñado para explorar la riqueza cultural y natural del Lago Titicaca. Durante 4 días, se visitarán las islas flotantes de los Uros y comunidades tradicionales de Puno, combinando recorridos en bote y caminatas guiadas por expertos en historia local. El alojamiento en Puno y las comidas incluidas hacen de esta una experiencia completa y educativa."
+  },
+  {
+    "id": "pkg011",
+    "name": "Trujillo Historical and Cultural Tour",
+    "destinations": ["Trujillo", "Chan Chan"],
+    "days": 3,
+    "lodging": "Hotel en Trujillo",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Restaurante local",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 210.0,
+    "discount": 0,
+    "description": "En este tour histórico por Trujillo, se profundiza en la herencia precolombina y colonial de la región. Durante 3 días, el itinerario incluye una visita detallada a Chan Chan, la ciudad de barro más grande de América, y recorridos por el centro histórico. El servicio de guía profesional enriquece la experiencia al ofrecer contextos históricos y culturales precisos."
+  },
+  {
+    "id": "pkg012",
+    "name": "Chiclayo and Sipan Archaeological Tour",
+    "destinations": ["Chiclayo", "Sipan Museum"],
+    "days": 4,
+    "lodging": "Hotel en Chiclayo",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 280.0,
+    "discount": 5,
+    "description": "Este paquete arqueológico se centra en la rica cultura del norte peruano. Durante 4 días, se visitará el Museo de Sipán y sitios cercanos que albergan restos de antiguas civilizaciones, permitiendo a los viajeros comprender la historia milenaria de la región. El itinerario combina visitas a museos, sitios arqueológicos y degustaciones de la gastronomía regional, todo guiado por expertos en historia."
+  },
+  {
+    "id": "pkg013",
+    "name": "Lima Gourmet & Wine Tour",
+    "destinations": ["Lima", "Barranco"],
+    "days": 2,
+    "lodging": "Boutique hotel en Lima",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Gourmet",
+      "dinner": "Gourmet"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 350.0,
+    "discount": 15,
+    "description": "Este exclusivo paquete gastronómico está diseñado para los amantes de la alta cocina. Durante 2 días, se recorrerán los distritos de Lima y Barranco, visitando restaurantes de alta gama y bodegas reconocidas. La experiencia incluye degustaciones de vinos peruanos y platos gourmet, acompañados por un guía experto en gastronomía, que brindará detalles sobre la fusión de sabores y tradiciones culinarias locales."
+  },
+  {
+    "id": "pkg014",
+    "name": "High Andean Trek",
+    "destinations": ["Cusco", "Ausangate Trek"],
+    "days": 7,
+    "lodging": "Camping y refugios",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 600.0,
+    "discount": 20,
+    "description": "Dirigido a los amantes del trekking, este paquete ofrece un desafiante recorrido por el altiplano andino, atravesando el famoso Ausangate. Durante 7 días, los participantes realizarán caminatas en terrenos de alta montaña, con pernoctaciones en campings y refugios, recibiendo apoyo logístico y orientación de guías experimentados. La experiencia incluye todas las comidas energéticas necesarias para enfrentar las exigencias del trekking."
+  },
+  {
+    "id": "pkg015",
+    "name": "Luxury Cusco Experience",
+    "destinations": ["Cusco", "Machu Picchu", "Sacred Valley"],
+    "days": 6,
+    "lodging": "Hotel 5 estrellas",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 800.0,
+    "discount": 10,
+    "description": "Este paquete premium combina lo mejor de Cusco, Machu Picchu y el Valle Sagrado en una experiencia de lujo. Durante 6 días, los viajeros disfrutarán de alojamiento en hoteles de 5 estrellas, viajes en tren de primera clase y un itinerario cuidadosamente diseñado que incluye visitas privadas y exclusivas. El servicio de guía profesional, de alto nivel, asegura una experiencia personalizada y enriquecedora en cada destino."
+  },
+  {
+    "id": "pkg016",
+    "name": "Budget Cusco Backpacking",
+    "destinations": ["Cusco", "Sacsayhuamán"],
+    "days": 3,
+    "lodging": "Hostal",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "No incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 100.0,
+    "discount": 0,
+    "description": "Ideal para mochileros, este paquete económico ofrece una inmersión en Cusco y sus alrededores. Durante 3 días, los viajeros explorarán el área por cuenta propia, incluyendo una visita emblemática a Sacsayhuamán. El itinerario es flexible, permitiendo a los aventureros disfrutar a su propio ritmo, con alojamiento en hostales y desayuno incluido."
+  },
+  {
+    "id": "pkg017",
+    "name": "Inca Trail Trek",
+    "destinations": ["Cusco", "Machu Picchu", "Inca Trail"],
+    "days": 4,
+    "lodging": "Camping",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 550.0,
+    "discount": 5,
+    "description": "Este paquete aventurero está orientado a los que desean recorrer el mítico Camino Inca. Durante 4 días, se realizará una caminata exigente en la que se acampará en rutas preestablecidas y se disfrutarán vistas panorámicas únicas. Además, el viaje incluye un tramo en tren para facilitar el acceso a Machu Picchu, garantizando seguridad y confort con la asistencia de guías especializados."
+  },
+  {
+    "id": "pkg018",
+    "name": "Peruvian Andes Adventure",
+    "destinations": ["Cusco", "Huaraz", "Cordillera Blanca"],
+    "days": 8,
+    "lodging": "Mountain lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "No incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 700.0,
+    "discount": 10,
+    "description": "Este extenso recorrido por los Andes peruanos une destinos de gran altitud y paisajes imponentes. Durante 8 días, el itinerario conecta la historia de Cusco con la aventura en Huaraz y la Cordillera Blanca, combinando trekking, visitas a lagunas y excursiones en mountain lodge. El paquete incluye el acompañamiento de guías expertos que aseguran la seguridad y el disfrute total de cada experiencia."
+  },
+  {
+    "id": "pkg019",
+    "name": "Lima City and Pre-Columbian History",
+    "destinations": ["Lima", "Museum of the Nation"],
+    "days": 2,
+    "lodging": "Hotel en Lima",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Opcional",
+      "dinner": "No incluido"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 130.0,
+    "discount": 0,
+    "description": "Diseñado para quienes buscan conocer la historia precolombina en la capital, este paquete de 2 días en Lima incluye una visita al Museum of the Nation y recorridos por zonas emblemáticas de la ciudad. El itinerario, combinado con un alojamiento confortable, permite apreciar el legado histórico y cultural sin prescripciones, ideal para viajeros independientes."
+  },
+  {
+    "id": "pkg020",
+    "name": "Cusco Nightlife and Culture",
+    "destinations": ["Cusco", "Plaza de Armas"],
+    "days": 3,
+    "lodging": "Hotel en centro de Cusco",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Opcional",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 240.0,
+    "discount": 5,
+    "description": "Este paquete combina la riqueza cultural del centro histórico de Cusco con su vibrante vida nocturna. Durante 3 días, se realizarán recorridos diurnos por sitios históricos y paseos nocturnos por la Plaza de Armas, permitiendo a los visitantes experimentar el contraste entre tradición y modernidad. El servicio de guía profesional ofrece contextos históricos y recomendaciones para disfrutar la gastronomía local."
+  },
+  {
+    "id": "pkg021",
+    "name": "Mystical Nazca and Ica Journey",
+    "destinations": ["Nazca", "Ica"],
+    "days": 3,
+    "lodging": "Hostal en Ica",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 160.0,
+    "discount": 5,
+    "description": "Este paquete ofrece una combinación de misterio y aventura, uniendo el enigmático paisaje de Nazca con la calidez de Ica. Durante 3 días, los viajeros podrán sobrevolar las Líneas de Nazca y disfrutar de un recorrido autónomo en Ica, donde se podrán degustar productos locales y conocer la vida cotidiana de la región."
+  },
+  {
+    "id": "pkg022",
+    "name": "Ancient Ruins Explorer",
+    "destinations": ["Trujillo", "Chan Chan", "Huaca del Sol"],
+    "days": 4,
+    "lodging": "Hotel en Trujillo",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 240.0,
+    "discount": 10,
+    "description": "Este itinerario invita a los viajeros a explorar las ruinas antiguas y sitios arqueológicos del norte peruano. Durante 4 días, se recorrerán las impresionantes estructuras de Chan Chan y Huaca del Sol en Trujillo, con explicaciones detalladas por parte de guías especializados. El paquete incluye alojamiento y comidas en establecimientos locales, ofreciendo una experiencia educativa y cultural."
+  },
+  {
+    "id": "pkg023",
+    "name": "Luxury Lima Experience",
+    "destinations": ["Lima"],
+    "days": 2,
+    "lodging": "Hotel 5 estrellas en Lima",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 400.0,
+    "discount": 15,
+    "description": "Pensado para los viajeros que buscan exclusividad, este paquete de 2 días en Lima ofrece un recorrido de lujo por los principales atractivos de la ciudad. Los participantes disfrutarán de alojamiento en un hotel de 5 estrellas, experiencias gourmet y visitas guiadas personalizadas por sitios culturales y modernos. Cada detalle está diseñado para garantizar confort y sofisticación."
+  },
+  {
+    "id": "pkg024",
+    "name": "Eco Adventure in Manu",
+    "destinations": ["Manu National Park"],
+    "days": 5,
+    "lodging": "Eco-lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 550.0,
+    "discount": 10,
+    "description": "Este paquete ecológico invita a los viajeros a sumergirse en la biodiversidad del Parque Nacional del Manu. Durante 5 días, se realizarán caminatas por la selva, paseos en bote y actividades de observación de fauna, todo bajo la supervisión de guías biólogos expertos. El alojamiento en un eco-lodge y las comidas con productos locales resaltan el compromiso con la sostenibilidad."
+  },
+  {
+    "id": "pkg025",
+    "name": "Cultural Journey to Chachapoyas",
+    "destinations": ["Chachapoyas", "Kuelap"],
+    "days": 4,
+    "lodging": "Hotel en Chachapoyas",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 320.0,
+    "discount": 5,
+    "description": "Este recorrido cultural se enfoca en la enigmática región de Chachapoyas, famosa por la fortaleza de Kuelap. Durante 4 días, los viajeros explorarán impresionantes construcciones preincaicas y conocerán las costumbres de las comunidades locales. La visita guiada y el alojamiento en un hotel confortable aseguran una experiencia rica en historia y tradiciones."
+  },
+  {
+    "id": "pkg026",
+    "name": "Pisco and Wine Route",
+    "destinations": ["Ica", "Pisco"],
+    "days": 3,
+    "lodging": "Hotel en Ica",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Restaurante local",
+      "dinner": "No incluido"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 210.0,
+    "discount": 0,
+    "description": "Este paquete de 3 días está orientado a los amantes del vino y el pisco. Los viajeros disfrutarán de un recorrido por bodegas y destilerías en Ica y Pisco, donde se ofrecerán catas y explicaciones sobre el proceso de elaboración. El itinerario flexible y el alojamiento cómodo hacen de este tour una opción ideal para disfrutar de la enología peruana."
+  },
+  {
+    "id": "pkg027",
+    "name": "Sacred Andean Journey",
+    "destinations": ["Cusco", "Sacred Valley", "Machu Picchu"],
+    "days": 7,
+    "lodging": "Hotel 4 estrellas",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 750.0,
+    "discount": 10,
+    "description": "Una travesía por los sitios sagrados de los Andes, este paquete de 7 días abarca Cusco, el Valle Sagrado y Machu Picchu. Con alojamiento en un hotel de 4 estrellas y transporte en tren, el itinerario ofrece recorridos guiados que explican la historia, la cosmovisión y las tradiciones ancestrales, garantizando una experiencia espiritual y cultural completa."
+  },
+  {
+    "id": "pkg028",
+    "name": "Northern Coast Discovery",
+    "destinations": ["Trujillo", "Chicama"],
+    "days": 4,
+    "lodging": "Hotel en Trujillo",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Opcional",
+      "dinner": "Opcional"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 280.0,
+    "discount": 5,
+    "description": "Este paquete invita a descubrir la riqueza cultural y natural de la costa norte de Perú. Durante 4 días, se explorarán las ciudades de Trujillo y la región de Chicama, conocida por sus olas y tradiciones marineras. El itinerario flexible permite al viajero organizar su tiempo entre visitas culturales y actividades al aire libre."
+  },
+  {
+    "id": "pkg029",
+    "name": "Peruvian Amazon Cultural Immersion",
+    "destinations": ["Iquitos", "Pacaya Samiria"],
+    "days": 6,
+    "lodging": "Eco-lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 600.0,
+    "discount": 15,
+    "description": "Este paquete de 6 días sumerge al viajero en la cultura y biodiversidad de la Amazonía. Desde Iquitos se realizan excursiones al Parque Nacional Pacaya Samiria, donde expertos biólogos y guías locales explican el ecosistema y las tradiciones de las comunidades ribereñas. La experiencia incluye actividades de observación de fauna, recorridos en bote y alojamiento en un eco-lodge."
+  },
+  {
+    "id": "pkg030",
+    "name": "Colca Canyon Trek",
+    "destinations": ["Arequipa", "Colca Canyon"],
+    "days": 5,
+    "lodging": "Mountain lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 420.0,
+    "discount": 10,
+    "description": "Diseñado para los entusiastas del trekking, este paquete de 5 días lleva a los viajeros por el impresionante Cañón del Colca. El recorrido incluye caminatas en senderos escénicos, visitas a pueblos andinos y miradores para apreciar el vuelo del cóndor. Con alojamiento en un mountain lodge y comidas incluidas, el tour es guiado por expertos en la región."
+  },
+  {
+    "id": "pkg031",
+    "name": "Lima Family Package",
+    "destinations": ["Lima", "Paracas"],
+    "days": 4,
+    "lodging": "Family hotel en Lima",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 350.0,
+    "discount": 5,
+    "description": "Ideal para familias, este paquete de 4 días ofrece una experiencia equilibrada entre la metrópoli limeña y la belleza natural de Paracas. Con actividades orientadas a todas las edades, se incluyen visitas a museos, parques y excursiones en bote, asegurando entretenimiento y aprendizaje para grandes y chicos, con un servicio de guía adaptado a familias."
+  },
+  {
+    "id": "pkg032",
+    "name": "Adventure in the Andes",
+    "destinations": ["Cusco", "Ausangate"],
+    "days": 8,
+    "lodging": "Camping",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 650.0,
+    "discount": 10,
+    "description": "Este paquete de 8 días es perfecto para los aventureros que desean explorar los rincones más remotos de los Andes. Con rutas de trekking por el área de Ausangate, el itinerario incluye pernoctaciones en camping, paisajes espectaculares y la compañía de guías expertos en montaña que aseguran una experiencia segura y enriquecedora."
+  },
+  {
+    "id": "pkg033",
+    "name": "Historical Cusco & Surroundings",
+    "destinations": ["Cusco", "Sacsayhuamán", "Qorikancha"],
+    "days": 3,
+    "lodging": "Hotel en Cusco",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 280.0,
+    "discount": 0,
+    "description": "Este paquete de 3 días ofrece una profunda inmersión en la historia de Cusco, visitando sitios emblemáticos como Sacsayhuamán y el Qorikancha. Los recorridos guiados resaltan los aspectos culturales y arqueológicos de la región, combinando comodidad en el hospedaje y la posibilidad de disfrutar de la vibrante vida local."
+  },
+  {
+    "id": "pkg034",
+    "name": "Luxury Amazon Escape",
+    "destinations": ["Puerto Maldonado", "Tambopata"],
+    "days": 5,
+    "lodging": "Luxury Eco-lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 700.0,
+    "discount": 20,
+    "description": "Este exclusivo paquete invita a escapar hacia la selva amazónica con el máximo confort. Durante 5 días, los viajeros se alojarán en un eco-lodge de lujo en Puerto Maldonado, disfrutarán de excursiones privadas por la Reserva de Tambopata y recibirán explicaciones detalladas de la biodiversidad local, todo ello complementado con servicios personalizados y atención premium."
+  },
+  {
+    "id": "pkg035",
+    "name": "Iquitos Jungle Expedition",
+    "destinations": ["Iquitos", "Amazon Jungle"],
+    "days": 6,
+    "lodging": "Jungle lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 500.0,
+    "discount": 10,
+    "description": "Este itinerario de 6 días lleva a los viajeros a una expedición en la selva amazónica a partir de Iquitos. Con alojamiento en un lodge en plena jungla, el recorrido incluye caminatas por senderos naturales, paseos en bote y la posibilidad de interactuar con comunidades nativas, siempre acompañado por guías con amplio conocimiento de la flora y fauna amazónica."
+  },
+  {
+    "id": "pkg036",
+    "name": "Peru Explorer by Rail",
+    "destinations": ["Cusco", "Machu Picchu"],
+    "days": 4,
+    "lodging": "Hotel en Cusco y Aguas Calientes",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 550.0,
+    "discount": 5,
+    "description": "Este paquete está orientado a quienes desean explorar Perú de una manera cómoda y rápida mediante el transporte ferroviario. Durante 4 días, el recorrido conecta la ciudad de Cusco con Machu Picchu, ofreciendo visitas guiadas en ambos destinos, alojamiento en hoteles estratégicamente ubicados y la comodidad de viajar en tren, lo que permite disfrutar del paisaje sin complicaciones logísticas."
+  },
+  {
+    "id": "pkg037",
+    "name": "Budget Explorer in the Sacred Valley",
+    "destinations": ["Sacred Valley", "Ollantaytambo"],
+    "days": 3,
+    "lodging": "Hostal",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "No incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 150.0,
+    "discount": 0,
+    "description": "Pensado para viajeros con presupuesto limitado, este paquete de 3 días ofrece una inmersión en el Valle Sagrado con visitas autoguiadas a Ollantaytambo y otros sitios locales. El itinerario flexible, el hospedaje en un hostal y el desayuno incluido permiten al viajero explorar la región a su propio ritmo sin comprometer la calidad de la experiencia."
+  },
+  {
+    "id": "pkg038",
+    "name": "Cultural Immersion in Cusco",
+    "destinations": ["Cusco", "Local Markets"],
+    "days": 2,
+    "lodging": "Boutique hostal",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Opcional",
+      "dinner": "Opcional"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 120.0,
+    "discount": 0,
+    "description": "Este paquete de 2 días se centra en la inmersión cultural en la ciudad de Cusco, destacando la visita a mercados locales y talleres de artesanía. Los viajeros tendrán la oportunidad de interactuar con artesanos y aprender sobre las tradiciones culinarias y culturales de la zona, todo mientras se alojan en un acogedor boutique hostal."
+  },
+  {
+    "id": "pkg039",
+    "name": "Historic Lima and Surroundings",
+    "destinations": ["Lima", "Pachacamac"],
+    "days": 2,
+    "lodging": "Hotel en Lima",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 180.0,
+    "discount": 5,
+    "description": "Este paquete de 2 días ofrece un recorrido concentrado en el legado histórico de Lima y sus alrededores, incluyendo la visita al santuario arqueológico de Pachacamac. Con un guía profesional a cargo, los viajeros podrán conocer la evolución cultural y religiosa de la región, combinando visitas a sitios históricos con comodidad en el hospedaje."
+  },
+  {
+    "id": "pkg040",
+    "name": "Machu Picchu Express",
+    "destinations": ["Cusco", "Machu Picchu"],
+    "days": 3,
+    "lodging": "Hotel en Cusco y Aguas Calientes",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 480.0,
+    "discount": 5,
+    "description": "Ideal para viajeros con tiempo limitado, este paquete exprés de 3 días conecta Cusco y Machu Picchu en un itinerario condensado pero completo. Con viaje en tren, visitas guiadas y alojamiento estratégicamente distribuido, se asegura que los participantes puedan disfrutar de la majestuosidad de la ciudadela inca sin sacrificar detalles importantes de la experiencia."
+  },
+  {
+    "id": "pkg041",
+    "name": "Sacred Valley Family Adventure",
+    "destinations": ["Sacred Valley", "Pisac", "Ollantaytambo"],
+    "days": 4,
+    "lodging": "Family hotel",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 320.0,
+    "discount": 10,
+    "description": "Diseñado para familias, este paquete de 4 días en el Valle Sagrado ofrece actividades intergeneracionales y visitas a sitios arqueológicos como Pisac y Ollantaytambo. Con alojamiento en un hotel familiar y todas las comidas incluidas, el recorrido guiado asegura que tanto adultos como niños disfruten y aprendan sobre la rica cultura inca."
+  },
+  {
+    "id": "pkg042",
+    "name": "Andean Cultural Experience",
+    "destinations": ["Cusco", "Chinchero", "Maras"],
+    "days": 3,
+    "lodging": "Hotel en Cusco",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Opcional",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 260.0,
+    "discount": 5,
+    "description": "Este paquete de 3 días ofrece una experiencia cultural en el corazón de los Andes, recorriendo Cusco, Chinchero y Maras. Los viajeros descubrirán técnicas tradicionales de tejido, la producción de sal en las salineras y la rica historia de la región, todo ello con el acompañamiento de un guía local experto."
+  },
+  {
+    "id": "pkg043",
+    "name": "Luxury Lima & Cusco Combo",
+    "destinations": ["Lima", "Cusco", "Machu Picchu"],
+    "days": 7,
+    "lodging": "Hoteles 5 estrellas",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 900.0,
+    "discount": 15,
+    "description": "Un paquete integral para quienes buscan lo mejor de Perú, combinando la modernidad de Lima, la tradición de Cusco y la mística de Machu Picchu. Durante 7 días, los viajeros se alojarán en hoteles de 5 estrellas, disfrutarán de recorridos privados y viajes en tren de lujo, todo coordinado por un equipo profesional que garantiza una experiencia sin contratiempos."
+  },
+  {
+    "id": "pkg044",
+    "name": "Northern Peru Heritage Tour",
+    "destinations": ["Chiclayo", "Trujillo", "Cañete"],
+    "days": 5,
+    "lodging": "Hotel en Chiclayo",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 400.0,
+    "discount": 10,
+    "description": "Este recorrido de 5 días por el norte de Perú explora la herencia cultural de ciudades como Chiclayo y Trujillo, complementado con una visita a Cañete. Con guías expertos en historia y arqueología, el tour ofrece una visión profunda de las antiguas civilizaciones y tradiciones de la región, apoyado por un alojamiento cómodo y comidas seleccionadas."
+  },
+  {
+    "id": "pkg045",
+    "name": "Coastal Adventure in Paracas",
+    "destinations": ["Paracas", "Pisco"],
+    "days": 3,
+    "lodging": "Hotel en Paracas",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 230.0,
+    "discount": 0,
+    "description": "En este paquete de 3 días, los viajeros disfrutarán de la aventura costera en Paracas y explorarán la ciudad de Pisco. El itinerario incluye visitas a playas y formaciones rocosas, con la opción de actividades acuáticas y excursiones en bote, ideal para quienes buscan combinar relajación y aventura en la costa peruana."
+  },
+  {
+    "id": "pkg046",
+    "name": "Peruvian Jungle and Ruins",
+    "destinations": ["Puerto Maldonado", "Inambari"],
+    "days": 4,
+    "lodging": "Eco-lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 420.0,
+    "discount": 5,
+    "description": "Este paquete de 4 días fusiona la exploración de la selva amazónica con visitas a ruinas antiguas en la región de Inambari. Los viajeros se adentrarán en la biodiversidad de Puerto Maldonado y conocerán vestigios arqueológicos locales, todo con la orientación de guías especializados y hospedaje en un eco-lodge confortable."
+  },
+  {
+    "id": "pkg047",
+    "name": "Colca Canyon Photography Tour",
+    "destinations": ["Arequipa", "Colca Canyon"],
+    "days": 4,
+    "lodging": "Hotel en Arequipa",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 380.0,
+    "discount": 10,
+    "description": "Ideal para aficionados a la fotografía, este tour de 4 días se centra en capturar los paisajes majestuosos del Cañón del Colca y la ciudad de Arequipa. Con paradas estratégicas en miradores y sesiones fotográficas guiadas, el paquete incluye alojamiento y comidas, permitiendo a los viajeros documentar cada momento de la experiencia."
+  },
+  {
+    "id": "pkg048",
+    "name": "Mystical Cusco & Andean Villages",
+    "destinations": ["Cusco", "Andean Villages"],
+    "days": 5,
+    "lodging": "Hostal rural",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 340.0,
+    "discount": 5,
+    "description": "Este itinerario de 5 días invita a los viajeros a adentrarse en la vida rural andina, combinando la riqueza cultural de Cusco con la autenticidad de pequeños pueblos de montaña. Con alojamiento en un hostal rural y un acompañamiento de guía experto, la ruta ofrece una experiencia auténtica y cercana a la tradición campesina."
+  },
+  {
+    "id": "pkg049",
+    "name": "Adventure to Lake Titicaca",
+    "destinations": ["Puno", "Lake Titicaca"],
+    "days": 3,
+    "lodging": "Hotel en Puno",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 270.0,
+    "discount": 0,
+    "description": "Este paquete de 3 días se centra en explorar el majestuoso Lago Titicaca, ofreciendo recorridos en bote y visitas a comunidades locales. Con un enfoque en la interacción cultural, los viajeros aprenderán sobre las tradiciones y leyendas de la región, apoyados por un guía que interpretará la historia ancestral del lago."
+  },
+  {
+    "id": "pkg050",
+    "name": "Inca Ruins and Colonial Heritage",
+    "destinations": ["Cusco", "Pisac", "Ollantaytambo"],
+    "days": 4,
+    "lodging": "Hotel en Cusco",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 310.0,
+    "discount": 5,
+    "description": "En este paquete de 4 días se fusionan dos épocas: la grandeza incaica y la influencia colonial en Cusco. El recorrido guiado incluye visitas a Pisac y Ollantaytambo, explicando la evolución cultural de la región, con alojamiento en un hotel céntrico y un servicio de calidad en cada parada."
+  },
+  {
+    "id": "pkg051",
+    "name": "Luxury Amazon River Cruise",
+    "destinations": ["Iquitos", "Amazon River"],
+    "days": 5,
+    "lodging": "Camarote en crucero",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 800.0,
+    "discount": 20,
+    "description": "Este exclusivo paquete combina un crucero de lujo por el río Amazonas con paradas en comunidades ribereñas. Durante 5 días, los viajeros disfrutarán de un camarote de primera, cenas gourmet y excursiones privadas en la selva, guiadas por expertos en ecoturismo, para conocer la riqueza natural y cultural de la región amazónica."
+  },
+  {
+    "id": "pkg052",
+    "name": "Budget Iquitos Adventure",
+    "destinations": ["Iquitos"],
+    "days": 3,
+    "lodging": "Hostal",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "No incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 140.0,
+    "discount": 0,
+    "description": "Ideal para viajeros con presupuesto ajustado, este paquete de 3 días en Iquitos ofrece un recorrido básico por la ciudad amazónica. Con alojamiento en hostal y desayuno incluido, el itinerario permite explorar el entorno urbano y sus alrededores a ritmo propio, brindando flexibilidad y economía."
+  },
+  {
+    "id": "pkg053",
+    "name": "Colca Canyon and Local Culture",
+    "destinations": ["Arequipa", "Colca Canyon", "Local Villages"],
+    "days": 5,
+    "lodging": "Hotel en Arequipa",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 410.0,
+    "discount": 10,
+    "description": "Este paquete de 5 días une la impresionante naturaleza del Cañón del Colca con la riqueza cultural de los pueblos andinos. Con visitas guiadas a comunidades locales, se destaca la tradición y el arte popular, complementado con un cómodo hospedaje en Arequipa y degustaciones de la cocina regional."
+  },
+  {
+    "id": "pkg054",
+    "name": "Lima Museums and Architecture",
+    "destinations": ["Lima"],
+    "days": 2,
+    "lodging": "Hotel en Lima",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 190.0,
+    "discount": 5,
+    "description": "Este paquete de 2 días está diseñado para los amantes del arte y la arquitectura. El itinerario incluye visitas a los principales museos y edificios históricos de Lima, con explicaciones detalladas sobre el patrimonio arquitectónico y cultural de la ciudad, complementado con un alojamiento céntrico y desayuno y almuerzo incluidos."
+  },
+  {
+    "id": "pkg055",
+    "name": "Inca Heritage Train Journey",
+    "destinations": ["Cusco", "Machu Picchu"],
+    "days": 4,
+    "lodging": "Hotel en Cusco y Aguas Calientes",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 600.0,
+    "discount": 10,
+    "description": "Este paquete de 4 días destaca la experiencia de recorrer la herencia incaica a través de un viaje en tren que conecta Cusco con Machu Picchu. Con visitas guiadas en ambos destinos, el recorrido está diseñado para brindar una comprensión profunda de la historia y cultura inca, complementado con alojamiento y todas las comidas incluidas."
+  },
+  {
+    "id": "pkg056",
+    "name": "Andean High-Altitude Trek",
+    "destinations": ["Cusco", "Ausangate"],
+    "days": 7,
+    "lodging": "Camping",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 680.0,
+    "discount": 15,
+    "description": "Este desafiante paquete de 7 días está orientado a los amantes del trekking en altitud. El itinerario por la región de Ausangate incluye caminatas intensas, pernoctaciones en camping y la asistencia constante de guías especializados que garantizan la seguridad y el disfrute de los impresionantes paisajes andinos."
+  },
+  {
+    "id": "pkg057",
+    "name": "Cultural Sojourn in Arequipa",
+    "destinations": ["Arequipa", "Santa Catalina Monastery"],
+    "days": 3,
+    "lodging": "Hotel en Arequipa",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 260.0,
+    "discount": 5,
+    "description": "Este paquete de 3 días ofrece una experiencia cultural en Arequipa, combinando la visita al icónico Monasterio de Santa Catalina con recorridos por el centro histórico de la ciudad. Los viajeros aprenderán sobre la fusión de estilos coloniales y modernos, disfrutando de un alojamiento confortable y comidas en restaurantes locales recomendados."
+  },
+  {
+    "id": "pkg058",
+    "name": "Mystical Nazca Lines and Desert",
+    "destinations": ["Nazca"],
+    "days": 2,
+    "lodging": "Hotel en Nazca",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "No incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 150.0,
+    "discount": 0,
+    "description": "Este paquete de 2 días se centra en el misterioso paisaje desértico de Nazca, ofreciendo la posibilidad de sobrevolar las famosas líneas y explorar el entorno con total autonomía. Es ideal para quienes desean vivir una experiencia enigmática sin prescripción de guía, pero con la comodidad de un hotel local."
+  },
+  {
+    "id": "pkg059",
+    "name": "Luxury Cusco and Sacred Valley",
+    "destinations": ["Cusco", "Sacred Valley"],
+    "days": 5,
+    "lodging": "Hotel 5 estrellas",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 850.0,
+    "discount": 10,
+    "description": "Este paquete premium de 5 días está diseñado para ofrecer una experiencia lujosa en el corazón de los Andes. Con alojamiento en un hotel de 5 estrellas, el itinerario abarca recorridos exclusivos por el Valle Sagrado y Cusco, guiados por expertos y complementados con servicios personalizados para un viaje inolvidable."
+  },
+  {
+    "id": "pkg060",
+    "name": "Peruvian Coast Explorer",
+    "destinations": ["Lima", "Callao", "Pucusana"],
+    "days": 3,
+    "lodging": "Hotel en Lima",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 230.0,
+    "discount": 5,
+    "description": "Este paquete de 3 días permite a los viajeros explorar la costa peruana, combinando la modernidad de Lima con la tradición portuaria de Callao y la serenidad de Pucusana. Con visitas guiadas, el itinerario se centra en la historia marítima, las playas y la gastronomía costera, ofreciendo una experiencia completa en la costa."
+  },
+  {
+    "id": "pkg061",
+    "name": "Colca Canyon Adventure",
+    "destinations": ["Colca Canyon", "Arequipa"],
+    "days": 4,
+    "lodging": "Mountain lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 390.0,
+    "discount": 10,
+    "description": "Este paquete de 4 días está enfocado en la aventura y exploración del Cañón del Colca. Con alojamiento en un mountain lodge, los viajeros disfrutarán de caminatas guiadas, visitas a pueblos tradicionales y la observación de la naturaleza, todo organizado para maximizar la experiencia en uno de los cañones más profundos del mundo."
+  },
+  {
+    "id": "pkg062",
+    "name": "Inca Trail Budget Trek",
+    "destinations": ["Cusco", "Machu Picchu", "Inca Trail"],
+    "days": 4,
+    "lodging": "Camping",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 500.0,
+    "discount": 5,
+    "description": "Dirigido a los viajeros que buscan aventurarse en el Camino Inca con un presupuesto limitado, este paquete de 4 días combina caminatas intensas y pernoctaciones en camping, con un tramo en tren para facilitar el acceso a Machu Picchu. Los guías expertos proporcionan asesoría técnica y cultural durante todo el recorrido."
+  },
+  {
+    "id": "pkg063",
+    "name": "Cultural Capitals of Peru",
+    "destinations": ["Lima", "Cusco", "Arequipa"],
+    "days": 7,
+    "lodging": "Hoteles 4 estrellas",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 950.0,
+    "discount": 15,
+    "description": "Este ambicioso paquete de 7 días recorre las capitales culturales de Perú: Lima, Cusco y Arequipa. Con un itinerario cuidadosamente planificado, los viajeros disfrutarán de recorridos urbanos, visitas históricas y experiencias gastronómicas, combinados con transporte en tren y alojamiento en hoteles de 4 estrellas, garantizando una inmersión completa en la diversidad peruana."
+  },
+  {
+    "id": "pkg064",
+    "name": "Adventure in the Peruvian Jungle",
+    "destinations": ["Puerto Maldonado", "Tambopata"],
+    "days": 5,
+    "lodging": "Eco-lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 480.0,
+    "discount": 10,
+    "description": "Este paquete de 5 días ofrece una intensa inmersión en la selva peruana, combinando excursiones en Puerto Maldonado con visitas a la Reserva de Tambopata. Los viajeros participarán en caminatas, paseos en bote y actividades de observación de fauna, con el acompañamiento de guías especializados y alojamiento en un eco-lodge que maximiza el contacto con la naturaleza."
+  },
+  {
+    "id": "pkg065",
+    "name": "Mystical Andean Legends",
+    "destinations": ["Cusco", "Sacred Valley", "Machu Picchu"],
+    "days": 6,
+    "lodging": "Hotel en Cusco",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 520.0,
+    "discount": 5,
+    "description": "Este paquete de 6 días invita a descubrir las leyendas y mitos de los Andes peruanos. Con visitas a Cusco, el Valle Sagrado y Machu Picchu, los viajeros recibirán explicaciones sobre las tradiciones orales y rituales ancestrales, combinadas con alojamiento confortable y un viaje en tren para un acceso privilegiado a los sitios sagrados."
+  },
+  {
+    "id": "pkg066",
+    "name": "Peru in a Nutshell",
+    "destinations": ["Lima", "Cusco", "Arequipa", "Machu Picchu"],
+    "days": 8,
+    "lodging": "Hoteles 3-4 estrellas",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 1000.0,
+    "discount": 20,
+    "description": "Este completo paquete de 8 días está diseñado para ofrecer una visión integral de Perú. Con paradas en Lima, Cusco, Arequipa y Machu Picchu, el itinerario combina recorridos históricos, culturales y naturales, con alojamiento en hoteles de 3 a 4 estrellas, transporte en tren y un servicio de guía profesional en cada destino."
+  },
+  {
+    "id": "pkg067",
+    "name": "Budget Andean Explorer",
+    "destinations": ["Cusco", "Sacred Valley"],
+    "days": 3,
+    "lodging": "Hostal",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "No incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 120.0,
+    "discount": 0,
+    "description": "Este paquete económico de 3 días permite a los viajeros explorar el Valle Sagrado y sus alrededores con un presupuesto ajustado. Con alojamiento en hostales y desayuno incluido, el itinerario se centra en visitas autoguiadas a sitios arqueológicos y paisajes naturales, brindando una experiencia auténtica y accesible."
+  },
+  {
+    "id": "pkg068",
+    "name": "Luxury Amazon and Andean Fusion",
+    "destinations": ["Puerto Maldonado", "Cusco"],
+    "days": 6,
+    "lodging": "Luxury lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 900.0,
+    "discount": 15,
+    "description": "Este innovador paquete de 6 días fusiona la experiencia de la selva amazónica con la majestuosidad andina. Comenzando en Puerto Maldonado y concluyendo en Cusco, el itinerario incluye alojamiento en un lodge de lujo, transporte en tren y visitas guiadas que resaltan la diversidad cultural y natural de ambas regiones."
+  },
+  {
+    "id": "pkg069",
+    "name": "Lima and Barranco Art Tour",
+    "destinations": ["Lima", "Barranco"],
+    "days": 2,
+    "lodging": "Boutique hotel en Lima",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 200.0,
+    "discount": 5,
+    "description": "Este paquete de 2 días está especialmente diseñado para los amantes del arte y la cultura. Se realizan recorridos por los vibrantes barrios de Lima y Barranco, visitando galerías, murales y espacios culturales, todo guiado por expertos en arte contemporáneo y tradicional, con alojamiento en un boutique hotel."
+  },
+  {
+    "id": "pkg070",
+    "name": "Historic Routes of the Inca",
+    "destinations": ["Cusco", "Sacsayhuamán", "Ollantaytambo"],
+    "days": 4,
+    "lodging": "Hotel en Cusco",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 330.0,
+    "discount": 5,
+    "description": "Este paquete de 4 días se centra en seguir las rutas históricas de los incas, visitando Sacsayhuamán y Ollantaytambo desde Cusco. Con un itinerario detallado y acompañamiento de guías expertos, los viajeros descubrirán los secretos de la arquitectura inca, combinando historia, cultura y la belleza natural de la región."
+  },
+  {
+    "id": "pkg071",
+    "name": "Mystery of the Andean Highlands",
+    "destinations": ["Huaraz", "Cordillera Blanca"],
+    "days": 5,
+    "lodging": "Mountain lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 450.0,
+    "discount": 10,
+    "description": "Este itinerario de 5 días se adentra en los misterios de la alta montaña en Huaraz y la Cordillera Blanca. Con paisajes espectaculares y desafíos en trekking, los viajeros disfrutarán de recorridos guiados por expertos en montañismo, alojamiento en mountain lodge y una experiencia única en los Andes."
+  },
+  {
+    "id": "pkg072",
+    "name": "Peru's Colonial Gems",
+    "destinations": ["Lima", "Cusco", "Arequipa"],
+    "days": 5,
+    "lodging": "Hotel colonial",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 400.0,
+    "discount": 5,
+    "description": "Este paquete de 5 días destaca el legado colonial de Perú, visitando ciudades con arquitectura y tradiciones heredadas de la época española. Con un recorrido por Lima, Cusco y Arequipa, los viajeros explorarán edificios históricos, iglesias y plazas, acompañado de guías expertos que ofrecen contexto histórico y cultural, y alojamiento en hoteles de estilo colonial."
+  },
+  {
+    "id": "pkg073",
+    "name": "Adrenaline Adventure in the Andes",
+    "destinations": ["Cusco", "Rainbow Mountain"],
+    "days": 3,
+    "lodging": "Hostal",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Opcional",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 250.0,
+    "discount": 0,
+    "description": "Para los amantes de la adrenalina, este paquete de 3 días ofrece un emocionante recorrido por Cusco y la famosa Rainbow Mountain. Con actividades de trekking en terrenos desafiantes y paradas en miradores naturales, los viajeros contarán con la asesoría de guías especializados y alojamiento en hostales, ideal para una experiencia aventurera y dinámica."
+  },
+  {
+    "id": "pkg074",
+    "name": "Peruvian Culinary and Cultural Tour",
+    "destinations": ["Lima", "Cusco"],
+    "days": 4,
+    "lodging": "Boutique hotel",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Gourmet",
+      "dinner": "Gourmet"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 500.0,
+    "discount": 10,
+    "description": "Este paquete de 4 días fusiona lo mejor de la gastronomía peruana con recorridos culturales en Lima y Cusco. Los viajeros disfrutarán de experiencias culinarias gourmet en restaurantes de alta calidad, clases de cocina tradicional y visitas a mercados locales, todo guiado por expertos en cultura y gastronomía, complementado con un alojamiento boutique."
+  },
+  {
+    "id": "pkg075",
+    "name": "Amazon Wildlife Expedition",
+    "destinations": ["Iquitos", "Pacaya Samiria"],
+    "days": 6,
+    "lodging": "Jungle lodge",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 650.0,
+    "discount": 10,
+    "description": "Este paquete de 6 días invita a los viajeros a explorar la vida salvaje de la Amazonía. Con salidas diarias en bote por el Parque Nacional Pacaya Samiria, se realizarán actividades de observación de fauna y excursiones por senderos naturales, todo con la compañía de guías especializados y alojamiento en un lodge en plena selva."
+  },
+  {
+    "id": "pkg076",
+    "name": "Peru Off the Beaten Path",
+    "destinations": ["Ayacucho", "Huamanga"],
+    "days": 4,
+    "lodging": "Local guesthouse",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 270.0,
+    "discount": 0,
+    "description": "Este itinerario de 4 días está diseñado para aquellos que desean explorar destinos poco convencionales de Perú. Con paradas en Ayacucho y Huamanga, se visitarán comunidades tradicionales y se conocerán prácticas culturales autóctonas, todo organizado de manera flexible y con alojamiento en casas de familia locales."
+  },
+  {
+    "id": "pkg077",
+    "name": "Lima Shopping and Nightlife",
+    "destinations": ["Lima"],
+    "days": 3,
+    "lodging": "Hotel en Lima",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "No incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": false,
+    "train_trip": false,
+    "cost": 220.0,
+    "discount": 5,
+    "description": "Este paquete de 3 días está orientado a los viajeros interesados en el dinamismo urbano de Lima. Se incluyen recorridos por centros comerciales, mercados artesanales y zonas de vida nocturna, ofreciendo la oportunidad de experimentar la moda, el diseño y la cultura contemporánea de la capital peruana, con opciones de entretenimiento personalizadas."
+  },
+  {
+    "id": "pkg078",
+    "name": "Ancient Cities of the North",
+    "destinations": ["Chiclayo", "Trujillo", "Cajamarca"],
+    "days": 5,
+    "lodging": "Hotel en Chiclayo",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Opcional"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 380.0,
+    "discount": 10,
+    "description": "Este paquete de 5 días ofrece un recorrido por las antiguas ciudades del norte peruano, destacando la riqueza arqueológica y cultural de Chiclayo, Trujillo y Cajamarca. Con visitas guiadas a sitios históricos y museos, el itinerario combina la tradición con la modernidad, permitiendo a los viajeros apreciar el legado milenario de la región."
+  },
+  {
+    "id": "pkg079",
+    "name": "Andean Villages and Traditions",
+    "destinations": ["Cusco", "Andean Villages"],
+    "days": 3,
+    "lodging": "Hostal rural",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "No incluido"
+    },
+    "tour_guide": true,
+    "train_trip": false,
+    "cost": 240.0,
+    "discount": 0,
+    "description": "Este paquete de 3 días permite a los viajeros descubrir la autenticidad de las tradiciones andinas a través de visitas a pequeños pueblos rurales cerca de Cusco. Con el acompañamiento de guías locales, se destacan las prácticas agrícolas, artesanales y festivas propias de la zona, complementado con un alojamiento sencillo pero acogedor."
+  },
+  {
+    "id": "pkg080",
+    "name": "Ultimate Peru Experience",
+    "destinations": ["Lima", "Cusco", "Machu Picchu", "Arequipa", "Amazon"],
+    "days": 10,
+    "lodging": "Hoteles 4-5 estrellas",
+    "meals": {
+      "breakfast": "Incluido",
+      "lunch": "Incluido",
+      "dinner": "Incluido"
+    },
+    "tour_guide": true,
+    "train_trip": true,
+    "cost": 1200.0,
+    "discount": 20,
+    "description": "El paquete definitivo para explorar Perú en toda su diversidad. Durante 10 días, este itinerario abarca la vibrante capital de Lima, la historia ancestral de Cusco, la mística de Machu Picchu, la belleza colonial de Arequipa y la exuberancia de la Amazonía. Con alojamiento en hoteles de alta categoría, transporte en tren y recorridos guiados en cada destino, esta experiencia integral promete una inmersión total en la cultura, historia y naturaleza peruana."
+  }
+]
